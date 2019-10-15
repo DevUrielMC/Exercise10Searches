@@ -33,6 +33,7 @@ public class SequentialSearchNonGreedy
 			do {
 				System.out.println("input the value to find inside the array");
 				numberToFind= input.nextInt();
+				
 				if(numberToFind<0)
 				{
 					System.out.print("Number must be greater than or equal to zero!  ");
